@@ -1,0 +1,27 @@
+run_analysis.R code book
+-----------------------------------
+
+The variables in the tidy data output contain 
+
+mean(): Mean value
+std(): Standard deviation
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
+of the follwoing variables:
+tBodyAcc-XYZ         |body acceleration 3-axial raw signals as, time
+tGravityAcc-XYZ      |gravity acceleration 3-axial raw signals, as time
+tBodyAccJerk-XYZ     |linear acceleration body jerk 3-axial raw signals, as time
+tBodyGyro-XYZ        |gyroscope 3-axial raw signals as time
+tBodyGyroJerk-XYZ    |angular velocity body jerk 3-axial raw signals, as time
+tBodyAccMag          |magnitude of the three-dimensional body acceleration signals, as time
+tGravityAccMag       |magnitude of the three-dimensional gravity acceleration signals, as time
+tBodyAccJerkMag      |magnitude of the three-dimensional linear acceleration body jerk signals, as time
+tBodyGyroMag         |magnitude of the three-dimensional gyroscope signals, as time
+tBodyGyroJerkMag     |magnitude of the three-dimensional angular velocity body jerk signals, as time
+fBodyAcc-XYZ         |frequency domain signals of body acceleration
+fBodyAccJerk-XYZ     |frequency domain signals of linear acceleration body jerk
+fBodyGyro-XYZ        |frequency domain signals of gyroscope
+fBodyAccMag          |frequency domain signals of magnitude of the three-dimensional body acceleration signals
+fBodyAccJerkMag      |frequency domain signals of magnitude of the three-dimensional linear acceleration body jerk signals
+fBodyGyroMag         |frequency domain signals of magnitude of the three-dimensional gyroscope signals
+fBodyGyroJerkMag     |frequency domain signals of magnitude of the three-dimensional angular velocity body jerk signals
