@@ -10,13 +10,6 @@ test_set_labels <- read.table("./test/y_test.txt", stringsAsFactors = F)
 #Read in features file
 features <- read.table("./features.txt")
 
-########
-#set_colnames <- features[,2]
-#adding the descritions for each variable to the variable reults
-#t_train_set <- t(train_set) #transposing so it can be cbinded
-#train_set_colnames <- as.data.frame(cbind(set_colnames,t_train_set))
-########
-
 #Merges the training and the test sets to create one data set
 ###create train data frame with subject_train, train_set & train_set_labels
 train_df <- cbind(subject_train,train_set_labels,train_set)
